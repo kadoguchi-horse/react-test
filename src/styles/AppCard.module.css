@@ -1,0 +1,9 @@
+/* カードの説明 */
+.cardDescription {
+  font-size: smaller;
+  height: 30px; 
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

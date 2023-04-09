@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{bdc90f76-9e53-4a61-9bd8-82767bb76088}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <EnableTypeScript>true</EnableTypeScript>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">17.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include=".eslintrc.json" />
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <None Include="tsconfig.json" />
+        <Content Include="README.md" />
+        <Content Include="config\config.json" />
+        <None Include="models\app.ts" />
+        <None Include="models\appEvaluation.ts" />
+        <None Include="models\category.ts" />
+        <None Include="models\index.ts" />
+        <None Include="pages\index.tsx" />
+        <None Include="pages\_app.tsx" />
+        <None Include="pages\_document.tsx" />
+        <Content Include="public\No_image_gray.png" />
+        <Content Include="public\usagi.png" />
+        <Content Include="public\favicon.ico" />
+        <Content Include="public\vercel.svg" />
+        <None Include="pages\api\hello.ts" />
+        <None Include="pages\detail\index.tsx" />
+        <None Include="pages\register\index.tsx" />
+        <None Include="pages\search\index.tsx" />
+        <None Include="pages\api\app\all.ts" />
+        <None Include="pages\api\app\create.ts" />
+        <None Include="pages\api\app\search.ts" />
+        <None Include="pages\api\app\searchAppId.ts" />
+        <None Include="pages\api\app\updateDownloads.ts" />
+        <None Include="pages\api\appEvaluation\all.ts" />
+        <None Include="pages\api\appEvaluation\average.ts" />
+        <None Include="pages\api\appEvaluation\create.ts" />
+        <None Include="pages\api\appEvaluation\searchAppId.ts" />
+        <None Include="pages\api\category\all.ts" />
+        <None Include="pages\api\const\Message.ts" />
+        <None Include="src\stores\AppInfoState.ts" />
+        <None Include="src\stores\ColorModeContext.ts" />
+        <Content Include="src\styles\AppCard.module.css" />
+        <Content Include="src\styles\detail.module.css" />
+        <Content Include="src\styles\globals.css" />
+        <Content Include="src\styles\PercentageGraph.module.css" />
+        <Content Include="src\styles\Swiper.module.css" />
+        <None Include="src\types\App.ts" />
+        <None Include="src\types\AppInfo.ts" />
+        <None Include="src\types\Category.ts" />
+        <None Include="src\types\Evaluation.ts" />
+        <None Include="src\types\index.ts" />
+        <None Include="src\components\atoms\index.ts" />
+        <None Include="src\components\atoms\LabelOptional.tsx" />
+        <None Include="src\components\atoms\LabelRequired.tsx" />
+        <None Include="src\components\atoms\PercentageGraph.tsx" />
+        <None Include="src\components\atoms\TextFieldRequired.tsx" />
+        <None Include="src\components\molecules\index.ts" />
+        <None Include="src\components\molecules\AppCard.tsx" />
+        <None Include="src\components\molecules\ImgUpload.tsx" />
+        <None Include="src\components\molecules\LabelWithOption.tsx" />
+        <None Include="src\components\molecules\SelectCategoryBox.tsx" />
+        <None Include="src\components\molecules\SelectSortOrder.tsx" />
+        <None Include="src\components\molecules\SwitchShared.tsx" />
+        <None Include="src\components\organisms\AppList.tsx" />
+        <None Include="src\components\organisms\AppListSwiper.tsx" />
+        <None Include="src\components\organisms\ReviewList.tsx" />
+        <None Include="src\components\organisms\SetReview_modal.tsx" />
+        <None Include="src\components\templates\NavBar.tsx" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="config" />
+        <Folder Include="models" />
+        <Folder Include="pages" />
+        <Folder Include="pages\api" />
+        <Folder Include="pages\api\app" />
+        <Folder Include="pages\api\appEvaluation" />
+        <Folder Include="pages\api\category" />
+        <Folder Include="pages\api\const" />
+        <Folder Include="pages\detail" />
+        <Folder Include="pages\register" />
+        <Folder Include="pages\search" />
+        <Folder Include="public" />
+        <Folder Include="src" />
+        <Folder Include="src\components" />
+        <Folder Include="src\components\atoms" />
+        <Folder Include="src\components\molecules" />
+        <Folder Include="src\components\organisms" />
+        <Folder Include="src\components\templates" />
+        <Folder Include="src\stores" />
+        <Folder Include="src\styles" />
+        <Folder Include="src\types" />
+        <Folder Include="src\utils" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

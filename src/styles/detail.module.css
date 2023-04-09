@@ -1,0 +1,58 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  margin: 0px auto;
+  padding: 4rem 0;
+  max-width: 500px;
+}
+
+.setumei {
+  min-height: 100px;
+  width: 100%;
+  padding: 1vmin;
+  margin-top: 3vh;
+}
+
+.kansou {
+  width: 100%;
+}
+
+.hyoukabtn {
+  align-items: flex-end;
+  text-align: right;
+  display: flex;
+}
+
+.mgn {
+  margin-top: 3vh !important;
+}
+
+.commentmgn {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.total {
+  font-size: 60px !important;
+  text-align: center  !important;
+}
+
+.totalreview {
+  font-size: 1vmin !important;
+}
+
+.positonreight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.commentinterval {
+  margin: 1vmin 0;
+}
+
+.mui-style-ryrseu-MuiRating-root {
+  color: #78ee4d !important;
+}

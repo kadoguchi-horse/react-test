@@ -1,0 +1,28 @@
+/* グリッド */
+.Grid {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+}
+
+/* タイトル */
+.Title {
+  padding-right: 1vmin;
+}
+
+/* 棒グラフ：背景 */
+.GraphBackground {
+  border-radius: 9999px;
+  background-color: #e8eaed;
+  height: 10px;
+}
+
+/* 棒グラフ：色 */
+.GraphColor {
+  height: 100%;
+  border-radius: inherit;
+  /* background-color: #01875f; */
+  background-color: orange;
+  /* background-color: #1976d2; */
+  width: 60.7523%;
+}

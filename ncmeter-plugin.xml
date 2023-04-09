@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncmeter_helper>
+    <!-- 処理対象の設定は必要に応じて設定する。
+    <report>
+        <src_file>
+            <dir>ディレクトリパス</dir>
+            <file>ファイル名</file>
+            <include>処理対象の設定(trueまたはfalse)</include>
+        </src_file>
+    </report>
+    -->
+    <!-- ソースディレクトリ内のテストコードを除外する。 -->
+    <report>
+        <src_file>
+            <file>.*.test\.js</file>
+            <include>false</include>
+        </src_file>
+    </report>
+
+    <!-- 初回再利用ファイルの設定は必要に応じて設定する。
+    <first_time_reuse>
+        <src_file>
+            <dir>.*</dir>
+            <file>.*</file>
+            <include>true</include>
+        </src_file>
+    </first_time_reuse>
+    -->
+</ncmeter_helper>

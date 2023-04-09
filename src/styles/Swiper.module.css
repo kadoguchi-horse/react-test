@@ -1,0 +1,50 @@
+/* Swiper 外枠 */
+.swiper_content {
+  position: relative !important;
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Navigation ボタン Prev 位置 */
+.swiper_button_prev {
+  left: -35px  !important;
+}
+
+/* Navigation ボタン Next 位置 */
+.swiper_button_next {
+  right: -35px  !important;
+}
+
+/* Navigation ボタン 共通 */
+.swiper_button_prev:after,
+.swiper_button_next:after {
+  bottom: 0;
+  content: "";  /* デフォルトの矢印を消す */
+  height: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+/* Navigation ボタン Prev 形 */
+.swiper_button_prev:after {
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #999999;
+  border-top: 20px solid transparent;
+}
+
+/* Navigation ボタン Next 形 */
+.swiper_button_next:after {
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #999999;
+  border-top: 20px solid transparent;
+}
+
+/* Pagination ボタン 位置 */
+.swiper_pagination {
+  position: relative !important;
+  margin-top: 12px !important;
+  text-align: center !important;
+}
