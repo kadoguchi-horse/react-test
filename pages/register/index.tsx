@@ -392,7 +392,7 @@ export default function Register() {
               type="icon"
               imgWidth="200px"
               imgHeight="200px"
-              changeList={null}
+              changeList={()=>{}}
               imageSrc={
                 appInfo.registerState === "登録"
                   ? defaultImage
@@ -413,7 +413,7 @@ export default function Register() {
               type="thumbnail"
               imgWidth="400px"
               imgHeight="250px"
-              changeList={null}
+              changeList={()=>{}}
               imageSrc={
                 appInfo.registerState === "登録"
                   ? defaultImage
